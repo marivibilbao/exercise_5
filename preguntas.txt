@@ -1,5 +1,11 @@
 Exercise 5:
 1. How do you see the files changed within each commit from git log?
+    Para ver los cambios en los archivos al utilizar git log, se visualizarían como en el siguiente ejemplo:
+        Identificador del commit ---> commit e126f1fd16a63b09b6b9b5f99a12d3f490992fcd (HEAD -> master)
+        Autor ---->                   Author: marivibilbao <marivibilbaog@gmail.com>
+        Fecha de realización -->      Date:   Thu Jun 3 23:07:11 2021 +0200
+
+        Comentario del cambio realizado -----> añado preguntas
 
 2. How do you see the contents of what changed within each file from the git log?
 
