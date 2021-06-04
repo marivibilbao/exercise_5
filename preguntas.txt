@@ -34,4 +34,4 @@ Exercise 5:
         +        Comentario del cambio realizado -----> añado preguntas
 
 3. What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
-
+    HEAD indica en la rama en la que actualmente se está trabajando, suele coincidir con el último commit de la rama.
