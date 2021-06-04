@@ -8,6 +8,30 @@ Exercise 5:
         Comentario del cambio realizado -----> añado preguntas
 
 2. How do you see the contents of what changed within each file from the git log?
+    Para ver el contenido de lo que he cambiado de cada archivo se puede utilizar git log -p -1 en este caso te muestra las modificaciones introducidas por el último (-1) commit.
+    Si quieres ver otras modificaciones puedes cambiar el -1, -2 o al número de comentarios que tengas, y te muestra el detalle de cada cambio realizado.
+    Ejemplo:
+        mariv@DESKTOP-TVO9J2N MINGW64 ~/Desktop/migracode/exercise_5 (master)
+        $ git log -p -1
+        commit 27668b046a3a0a0fa1475e2ae9f28f3279f5acc2 (HEAD -> master)
+        Author: marivibilbao <marivibilbaog@gmail.com>
+        Date:   Fri Jun 4 20:49:14 2021 +0200
+
+        respuesta pregunta 1
+
+        diff --git a/preguntas.txt b/preguntas.txt
+        index 7851a14..2d75aae 100644
+        --- a/preguntas.txt
+        +++ b/preguntas.txt
+        @@ -1,5 +1,11 @@
+        Exercise 5:
+        1. How do you see the files changed within each commit from git log?
+        +    Para ver los cambios en los archivos al utilizar git log, se visualizarían como en el siguiente ejemplo:
+        +        Identificador del commit ---> commit e126f1fd16a63b09b6b9b5f99a12d3f490992fcd (HEAD -> master)
+        +        Autor ---->                   Author: marivibilbao <marivibilbaog@gmail.com>
+        +        Fecha de realización -->      Date:   Thu Jun 3 23:07:11 2021 +0200
+        +
+        +        Comentario del cambio realizado -----> añado preguntas
 
 3. What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
 
